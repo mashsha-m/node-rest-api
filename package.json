@@ -1,6 +1,28 @@
 {
-  "name": "node-rest-api-main",
+  "name": "node-rest-api",
   "version": "1.0.0",
+  "description": "rest api for bitrix24 on vue",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "js",
+    "rest",
+    "api",
+    "bitrix24",
+    "node",
+    "vue"
+  ],
+  "author": "Masha",
+  "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
