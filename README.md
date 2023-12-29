@@ -11,14 +11,14 @@ A starter project has been created in accordance with the video tutorial (https:
 3. Frontend:
 3.1. Main frontend - client/app.js
 4. Controllers:
-     4.1. Main controller - controllers/server.js
-6. Template engine:
-  5.1. Main page - ejs/index.ejs
+  4.1 Main controller - controllers/server.js
+5. Template engine:
+     5.1 Main page - ejs/index.ejs
   5.2. Form page - ejs/next.ejs
   5.3. Inner template engine:
     5.3.1. Footer - ejs/partials/footer.ejs
     5.3.2. Header - ejs/partials/header.ejs
     5.3.3. Navbar - ejs/partials/navbar.ejs
-7. Routes:
+6. Routes:
   6.1. Main router - routes/server.ejs
-8. Node modules
+7. Node modules
