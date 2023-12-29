@@ -22,3 +22,12 @@ A starter project has been created in accordance with the video tutorial (https:
 6. Routes:
   6.1. Main router - routes/server.ejs
 7. Node modules
+<ol>
+  <li>Root (connecting modules, registering pages, routing) - /index.js</li>
+  <li>Middlewares (performing initial functions) - /middlewares.js</li>
+  <li>Frontend:
+  <ol>
+    <li>Main frontend - client/app.js</li>
+  </ol>
+  </li>
+</ol>
