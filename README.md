@@ -5,7 +5,7 @@
 
 **29.12.2023**
 A starter project has been created in accordance with the video [tutorial](https://www.youtube.com/watch?v=9EtkpCzqZu0)
-
+<br>
 **Structure:**
 <ul>
   <li>Root (connecting modules, registering pages, routing) - /index.js</li>
