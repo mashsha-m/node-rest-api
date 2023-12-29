@@ -39,4 +39,11 @@ A starter project has been created in accordance with the video [tutorial](https
       </ul>
   </li>
   <li>Node modules</li>
+  <li>Package.json</li>
+  <li>Package-lock.json</li>
 </ul>
+
+**Libraries used:**
+- express
+- ejs
+- nodemon
