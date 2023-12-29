@@ -4,7 +4,9 @@
 ### Creation date: 12/25/2023
 
 **29.12.2023**
-- A starter project has been created in accordance with the video [tutorial](https://www.youtube.com/watch?v=9EtkpCzqZu0)
+__
+ A starter project has been created in accordance with the video [tutorial](https://www.youtube.com/watch?v=9EtkpCzqZu0)
+__
 **Structure:**
 <ul>
   <li>Root (connecting modules, registering pages, routing) - /index.js</li>
