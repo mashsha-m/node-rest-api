@@ -9,7 +9,7 @@ A starter project has been created in accordance with the video tutorial (https:
 1. Root (connecting modules, registering pages, routing) - /index.js
 2. Middlewares (performing initial functions) - /middlewares.js
 3. Frontend:
-  3.1. Main frontend - client/app.js
+3.1. Main frontend - client/app.js
 4. Controllers:
      4.1. Main controller - controllers/server.js
 6. Template engine:
