@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "rest api for bitrix24 on vue",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
@@ -22,6 +21,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.2",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
