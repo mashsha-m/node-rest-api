@@ -1,4 +1,4 @@
-import servers from "../routes/servers.js";
+const servers = require('../routes/servers.js')
 
 let settings = [{
     plannerHeight: 170,
@@ -9,20 +9,27 @@ let settings = [{
     isStandartKanaban: false,
 }];
 
-export const getAll = (req, res) => {
+const getAll = (req, res) => {
     res.status(200).json(settings)
 }
 
-export const deleteEl = (req, res) => {
+const deleteEl = (req, res) => {
     settings = settings.filter(s => s.id !== req.params.id)
     res.json({message: 'server deleted element'})
 }
 
-export const create = (req, res) => {
+const create = (req, res) => {
     const newServer = {
         id: Date.now().toString(),
         ...req.body
     }
     settings.push(newServer)
     res.status(201).json(settings)
+}
+
+module.exports = {
+    getAll,
+    deleteEl,
+    create,
+    settings
 }
